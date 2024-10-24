@@ -106,13 +106,13 @@ The **SHAP** values were used to explain the contribution of each feature to the
 
 Below is the SHAP feature importance plot showing the contributions of different features to the model’s predictions.
 
-![SHAP Feature Importance](./images/shap_summary_plot.png)
+![SHAP Feature Importance](./Images/shap_summary_plot.png)
 
 #### Model Performance Visualization
 
 Here’s a visual comparison of model performance (AUC scores) across **XGBoost**, **LightGBM**, and **CatBoost** models:
 
-![Model Performance Comparison](./images/model_importances.png)
+![Model Performance Comparison](./Images/model_importances.png)
 
 ---
 
