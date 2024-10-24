@@ -1,4 +1,4 @@
-** Home-Credit-Risk-Prediction-with-XGBoost-LightGBM-and-CatBoost-Analysis-Credit-Default-Risk-Dataset
+# Home-Credit-Risk-Prediction-with-XGBoost-LightGBM-and-CatBoost-Analysis-Credit-Default-Risk-Dataset
 
 This project is focused on predicting credit default risk using advanced machine learning models and feature engineering techniques. By leveraging **XGBoost**, **LightGBM**, and **CatBoost**, we aim to create robust and interpretable models that can effectively predict whether a customer will default on their loan. Using the **Home Credit Default Risk** dataset, we applied key steps such as handling missing data, addressing class imbalances, and utilizing SHAP values for model explainability.
 
@@ -106,13 +106,13 @@ The **SHAP** values were used to explain the contribution of each feature to the
 
 Below is the SHAP feature importance plot showing the contributions of different features to the model’s predictions.
 
-![SHAP Feature Importance](./images/shap_feature_importance.png)
+![SHAP Feature Importance](./images/shap_summary_plot.png)
 
 #### Model Performance Visualization
 
 Here’s a visual comparison of model performance (AUC scores) across **XGBoost**, **LightGBM**, and **CatBoost** models:
 
-![Model Performance Comparison](./images/model_performance_comparison.png)
+![Model Performance Comparison](./images/model_importances.png)
 
 ---
 
